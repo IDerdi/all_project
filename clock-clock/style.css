@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.clock{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 50%;
+    position: relative;
+    border: 20px solid black;
+    padding: 2rem;
+}
+
+
+
+.clock-face{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform:translateY(-3px);
+}
+
+.point{
+    width: 20px;
+    height: 20px;
+    border-radius:50%;
+    background: rgb(12, 12, 12);
+    position: absolute; 
+    top: 48%;
+    left: 47.4%;
+}
+
+.hand{
+    width: 50%;
+    height: 6px;
+    background: rgb(12, 12, 12);
+    position: absolute;
+    top: 50%;
+    transform-origin: 100%;
+    transform: rotate(90deg) ;
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
