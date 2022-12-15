@@ -1,0 +1,65 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,1) , rgba(0,0,0,.5)) ,  url("img/arkaplan.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.header-content{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.accordion-button{
+    background-color: rgb(43, 43, 43);
+    color: white;
+    margin-top: 1rem;
+}
+
+.accordion-item{
+    border: none;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: rgb(43, 43, 43);
+    color: white;
+}
+
+.accordion-button:focus{
+    box-shadow: none;
+}
+
+.cizgi{
+    width: 100%;
+    padding: 5px;
+    background-color: rgb(43, 43, 43);
+}
+
+
+footer ul li{
+    padding: .6rem 0;
+}
+
+
+
+
